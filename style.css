@@ -1,0 +1,12 @@
+.grid {
+  display: flex;
+}
+
+.cell {
+  background-color: black;
+}
+
+.container {
+  width: 256px;
+  height: 256;
+}
