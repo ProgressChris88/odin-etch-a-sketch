@@ -1,12 +1,18 @@
-.grid {
+#grid {
   display: flex;
+  flex-wrap: wrap;
+  height: 590x;
+  width: 590px;
 }
 
 .cell {
-  background-color: black;
+  background-color: rgb(240, 240, 240);
+  width: 34.375px;
+  height: 34.375px;
+  border: 1px solid rgb(0, 0, 0);
 }
 
-.container {
-  width: 256px;
-  height: 256;
+#container {
+  width: 575px;
+  height: 575px;
 }
