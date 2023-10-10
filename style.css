@@ -1,18 +1,29 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
 #grid {
   display: flex;
-  flex-wrap: wrap;
-  height: 590x;
-  width: 590px;
+  flex-flow: row wrap;
+  height: 500px;
+  width: 500px;
 }
 
 .cell {
   background-color: rgb(240, 240, 240);
-  width: 34.375px;
-  height: 34.375px;
+  width: 29.25px;
+  height: 29.25px;
   border: 1px solid rgb(0, 0, 0);
 }
 
-#container {
+.container {
+  margin-top: 30px;
   width: 575px;
   height: 575px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: brown;
 }
